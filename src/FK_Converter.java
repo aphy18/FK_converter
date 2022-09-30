@@ -9,6 +9,6 @@ public class FK_Converter {
         System.out.println("Enter a temperature.");
         double temperature = scanTemperature.nextDouble();
         double convertToKelvin = (((temperature - 32) * 5) / 9) + 273.15;
-        System.out.println("temperature from Fareinheit to Kelvin --> " + convertToKelvin);
+        System.out.println("temperature from Fahrenheit to Kelvin --> " + format.format(convertToKelvin));
     }
 }
